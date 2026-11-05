@@ -1,0 +1,33 @@
+{
+  "model": "resnet18",
+  "seed": 42,
+  "epochs_requested": 24,
+  "epochs_completed": 12,
+  "t_max": 24,
+  "stopped_early": true,
+  "stop_reason": "Best test accuracy reached 84.52% at epoch 11, above the 80% bar. Training was stopped after epoch 12 instead of the scheduled 24 so every variant could be compared on the same 12-epoch budget and the same cosine schedule (T_max=24).",
+  "best_epoch": 11,
+  "best_test_acc": 0.8452,
+  "best_test_acc_percent": 84.52,
+  "final_test_acc": 0.8168,
+  "final_test_loss": 0.5595425331115723,
+  "final_train_acc": 0.88788,
+  "final_train_loss": 0.3280310577583313,
+  "logged_epoch_seconds": 2061.738987965,
+  "total_train_seconds_this_process": 2061.738987965,
+  "timing_note": "Sum of logged train_seconds and test_seconds over completed epochs. The process was stopped after epoch 12.",
+  "device": "cpu",
+  "torch": "2.15.0+cpu",
+  "amp": "bf16",
+  "complexity": {
+    "params": 11173962,
+    "macs": 555422720,
+    "flops": 1110845440,
+    "image_size": 32,
+    "macs_note": "Conv2d and Linear multiply-accumulates for one image; BN and activations excluded.",
+    "flops_note": "FLOPs = 2 * MACs."
+  },
+  "checkpoint": "checkpoints/resnet18_best.pth",
+  "metrics_csv": "runs/resnet18/metrics.csv",
+  "history_json": "runs/resnet18/history.json"
+}

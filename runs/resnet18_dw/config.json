@@ -1,0 +1,46 @@
+{
+  "model": "resnet18_dw",
+  "epochs": 12,
+  "t_max": 24,
+  "batch_size": 128,
+  "lr": 0.1,
+  "momentum": 0.9,
+  "nesterov": true,
+  "weight_decay": 0.0005,
+  "seed": 42,
+  "num_workers": 0,
+  "se_reduction": 16,
+  "optimizer": "SGD",
+  "scheduler": "CosineAnnealingLR",
+  "scheduler_step": "per-epoch, after the test evaluation",
+  "loss": "CrossEntropyLoss",
+  "amp": "bf16",
+  "amp_note": "Training step only. Evaluation is fp32 so checkpoints match evaluate.py.",
+  "augmentation": [
+    "RandomCrop(32, padding=4)",
+    "RandomHorizontalFlip"
+  ],
+  "normalize_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalize_std": [
+    0.2023,
+    0.1994,
+    0.201
+  ],
+  "stem": "Conv3x3 stride 1, no max-pool",
+  "init": "kaiming_normal fan_out relu; last BN gamma of each block set to 0",
+  "device": "cpu",
+  "torch": "2.15.0+cpu",
+  "python": "3.12.3",
+  "complexity": {
+    "params": 1439626,
+    "macs": 73049088,
+    "flops": 146098176,
+    "image_size": 32,
+    "macs_note": "Conv2d and Linear multiply-accumulates for one image; BN and activations excluded.",
+    "flops_note": "FLOPs = 2 * MACs."
+  }
+}

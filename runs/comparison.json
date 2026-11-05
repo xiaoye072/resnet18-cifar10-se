@@ -1,0 +1,53 @@
+[
+  {
+    "model": "resnet18",
+    "display": "ResNet-18",
+    "params": 11173962,
+    "macs": 555422720,
+    "flops": 1110845440,
+    "best_epoch": 11,
+    "best_test_acc": 0.8452,
+    "final_test_acc": 0.8168,
+    "final_test_loss": 0.5595425331115723,
+    "epochs_completed": 12,
+    "device": "cpu",
+    "seed": 42,
+    "delta_best_acc_vs_baseline": 0.0,
+    "param_ratio_vs_baseline": 1.0,
+    "mac_ratio_vs_baseline": 1.0
+  },
+  {
+    "model": "resnet18_dw",
+    "display": "ResNet-18-DW",
+    "params": 1439626,
+    "macs": 73049088,
+    "flops": 146098176,
+    "best_epoch": 12,
+    "best_test_acc": 0.8084,
+    "final_test_acc": 0.8084,
+    "final_test_loss": 0.5688822135448456,
+    "epochs_completed": 12,
+    "device": "cpu",
+    "seed": 42,
+    "delta_best_acc_vs_baseline": -0.036799999999999944,
+    "param_ratio_vs_baseline": 0.12883756003465915,
+    "mac_ratio_vs_baseline": 0.1315198053115292
+  },
+  {
+    "model": "resnet18_se",
+    "display": "ResNet-18-SE",
+    "params": 11261002,
+    "macs": 555509760,
+    "flops": 1111019520,
+    "best_epoch": 12,
+    "best_test_acc": 0.8287,
+    "final_test_acc": 0.8287,
+    "final_test_loss": 0.5246495917320252,
+    "epochs_completed": 12,
+    "device": "cpu",
+    "seed": 42,
+    "delta_best_acc_vs_baseline": -0.01649999999999996,
+    "param_ratio_vs_baseline": 1.0077895378559547,
+    "mac_ratio_vs_baseline": 1.0001567094698611
+  }
+]

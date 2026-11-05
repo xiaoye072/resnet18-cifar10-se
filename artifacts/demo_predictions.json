@@ -1,0 +1,509 @@
+{
+  "checkpoint": "checkpoints/resnet18_best.pth",
+  "model": "resnet18",
+  "checkpoint_epoch": 11,
+  "checkpoint_test_acc": 0.8452,
+  "task": "image classification into CIFAR-10 outdoor scene categories",
+  "results": [
+    {
+      "image": "samples/00_airplane.png",
+      "prediction": "ship",
+      "probability": 0.9904770851135254,
+      "scene_zh": "水面目标 / 船只",
+      "scene_en": "surface vessel",
+      "group_zh": "水面",
+      "topk": [
+        {
+          "class_index": 8,
+          "class_name": "ship",
+          "probability": 0.9904770851135254,
+          "scene_zh": "水面目标 / 船只",
+          "scene_en": "surface vessel",
+          "group_zh": "水面"
+        },
+        {
+          "class_index": 0,
+          "class_name": "airplane",
+          "probability": 0.008818765170872211,
+          "scene_zh": "空中目标 / 飞行器",
+          "scene_en": "airborne aircraft",
+          "group_zh": "空中"
+        },
+        {
+          "class_index": 1,
+          "class_name": "automobile",
+          "probability": 0.00045274291187524796,
+          "scene_zh": "地面车辆 / 小型机动车",
+          "scene_en": "ground light vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 9,
+          "class_name": "truck",
+          "probability": 0.0001660058187553659,
+          "scene_zh": "地面车辆 / 货车",
+          "scene_en": "ground heavy vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 3,
+          "class_name": "cat",
+          "probability": 6.373592623276636e-05,
+          "scene_zh": "地面动物 / 猫",
+          "scene_en": "ground animal (cat)",
+          "group_zh": "动物"
+        }
+      ]
+    },
+    {
+      "image": "samples/01_automobile.png",
+      "prediction": "automobile",
+      "probability": 0.9931479096412659,
+      "scene_zh": "地面车辆 / 小型机动车",
+      "scene_en": "ground light vehicle",
+      "group_zh": "地面车辆",
+      "topk": [
+        {
+          "class_index": 1,
+          "class_name": "automobile",
+          "probability": 0.9931479096412659,
+          "scene_zh": "地面车辆 / 小型机动车",
+          "scene_en": "ground light vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 9,
+          "class_name": "truck",
+          "probability": 0.006617116276174784,
+          "scene_zh": "地面车辆 / 货车",
+          "scene_en": "ground heavy vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 3,
+          "class_name": "cat",
+          "probability": 8.787246770225465e-05,
+          "scene_zh": "地面动物 / 猫",
+          "scene_en": "ground animal (cat)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 5,
+          "class_name": "dog",
+          "probability": 5.183155371923931e-05,
+          "scene_zh": "地面动物 / 犬",
+          "scene_en": "ground animal (dog)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 6,
+          "class_name": "frog",
+          "probability": 4.1187744500348344e-05,
+          "scene_zh": "近地小型生物 / 蛙",
+          "scene_en": "ground small fauna (frog)",
+          "group_zh": "动物"
+        }
+      ]
+    },
+    {
+      "image": "samples/02_bird.png",
+      "prediction": "bird",
+      "probability": 0.3656069338321686,
+      "scene_zh": "低空生物 / 鸟类",
+      "scene_en": "low-altitude bird",
+      "group_zh": "动物",
+      "topk": [
+        {
+          "class_index": 2,
+          "class_name": "bird",
+          "probability": 0.3656069338321686,
+          "scene_zh": "低空生物 / 鸟类",
+          "scene_en": "low-altitude bird",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 6,
+          "class_name": "frog",
+          "probability": 0.22070454061031342,
+          "scene_zh": "近地小型生物 / 蛙",
+          "scene_en": "ground small fauna (frog)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 4,
+          "class_name": "deer",
+          "probability": 0.16887186467647552,
+          "scene_zh": "地面动物 / 鹿",
+          "scene_en": "ground animal (deer)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 0,
+          "class_name": "airplane",
+          "probability": 0.09411019086837769,
+          "scene_zh": "空中目标 / 飞行器",
+          "scene_en": "airborne aircraft",
+          "group_zh": "空中"
+        },
+        {
+          "class_index": 3,
+          "class_name": "cat",
+          "probability": 0.06805139780044556,
+          "scene_zh": "地面动物 / 猫",
+          "scene_en": "ground animal (cat)",
+          "group_zh": "动物"
+        }
+      ]
+    },
+    {
+      "image": "samples/03_cat.png",
+      "prediction": "cat",
+      "probability": 0.9893105030059814,
+      "scene_zh": "地面动物 / 猫",
+      "scene_en": "ground animal (cat)",
+      "group_zh": "动物",
+      "topk": [
+        {
+          "class_index": 3,
+          "class_name": "cat",
+          "probability": 0.9893105030059814,
+          "scene_zh": "地面动物 / 猫",
+          "scene_en": "ground animal (cat)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 5,
+          "class_name": "dog",
+          "probability": 0.009860692545771599,
+          "scene_zh": "地面动物 / 犬",
+          "scene_en": "ground animal (dog)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 1,
+          "class_name": "automobile",
+          "probability": 0.00016786804189905524,
+          "scene_zh": "地面车辆 / 小型机动车",
+          "scene_en": "ground light vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 0,
+          "class_name": "airplane",
+          "probability": 0.0001474721939302981,
+          "scene_zh": "空中目标 / 飞行器",
+          "scene_en": "airborne aircraft",
+          "group_zh": "空中"
+        },
+        {
+          "class_index": 8,
+          "class_name": "ship",
+          "probability": 0.00013812861288897693,
+          "scene_zh": "水面目标 / 船只",
+          "scene_en": "surface vessel",
+          "group_zh": "水面"
+        }
+      ]
+    },
+    {
+      "image": "samples/04_deer.png",
+      "prediction": "deer",
+      "probability": 0.525753915309906,
+      "scene_zh": "地面动物 / 鹿",
+      "scene_en": "ground animal (deer)",
+      "group_zh": "动物",
+      "topk": [
+        {
+          "class_index": 4,
+          "class_name": "deer",
+          "probability": 0.525753915309906,
+          "scene_zh": "地面动物 / 鹿",
+          "scene_en": "ground animal (deer)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 0,
+          "class_name": "airplane",
+          "probability": 0.2971723973751068,
+          "scene_zh": "空中目标 / 飞行器",
+          "scene_en": "airborne aircraft",
+          "group_zh": "空中"
+        },
+        {
+          "class_index": 8,
+          "class_name": "ship",
+          "probability": 0.08681690692901611,
+          "scene_zh": "水面目标 / 船只",
+          "scene_en": "surface vessel",
+          "group_zh": "水面"
+        },
+        {
+          "class_index": 6,
+          "class_name": "frog",
+          "probability": 0.06532694399356842,
+          "scene_zh": "近地小型生物 / 蛙",
+          "scene_en": "ground small fauna (frog)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 3,
+          "class_name": "cat",
+          "probability": 0.01459791511297226,
+          "scene_zh": "地面动物 / 猫",
+          "scene_en": "ground animal (cat)",
+          "group_zh": "动物"
+        }
+      ]
+    },
+    {
+      "image": "samples/05_dog.png",
+      "prediction": "dog",
+      "probability": 0.6437402963638306,
+      "scene_zh": "地面动物 / 犬",
+      "scene_en": "ground animal (dog)",
+      "group_zh": "动物",
+      "topk": [
+        {
+          "class_index": 5,
+          "class_name": "dog",
+          "probability": 0.6437402963638306,
+          "scene_zh": "地面动物 / 犬",
+          "scene_en": "ground animal (dog)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 3,
+          "class_name": "cat",
+          "probability": 0.16478434205055237,
+          "scene_zh": "地面动物 / 猫",
+          "scene_en": "ground animal (cat)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 4,
+          "class_name": "deer",
+          "probability": 0.11951152980327606,
+          "scene_zh": "地面动物 / 鹿",
+          "scene_en": "ground animal (deer)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 6,
+          "class_name": "frog",
+          "probability": 0.04198772832751274,
+          "scene_zh": "近地小型生物 / 蛙",
+          "scene_en": "ground small fauna (frog)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 7,
+          "class_name": "horse",
+          "probability": 0.02000286616384983,
+          "scene_zh": "地面动物 / 马",
+          "scene_en": "ground animal (horse)",
+          "group_zh": "动物"
+        }
+      ]
+    },
+    {
+      "image": "samples/06_frog.png",
+      "prediction": "frog",
+      "probability": 0.9992503523826599,
+      "scene_zh": "近地小型生物 / 蛙",
+      "scene_en": "ground small fauna (frog)",
+      "group_zh": "动物",
+      "topk": [
+        {
+          "class_index": 6,
+          "class_name": "frog",
+          "probability": 0.9992503523826599,
+          "scene_zh": "近地小型生物 / 蛙",
+          "scene_en": "ground small fauna (frog)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 4,
+          "class_name": "deer",
+          "probability": 0.0002584601170383394,
+          "scene_zh": "地面动物 / 鹿",
+          "scene_en": "ground animal (deer)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 2,
+          "class_name": "bird",
+          "probability": 0.0002277483290527016,
+          "scene_zh": "低空生物 / 鸟类",
+          "scene_en": "low-altitude bird",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 1,
+          "class_name": "automobile",
+          "probability": 0.00011716481822077185,
+          "scene_zh": "地面车辆 / 小型机动车",
+          "scene_en": "ground light vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 3,
+          "class_name": "cat",
+          "probability": 0.00010694096272345632,
+          "scene_zh": "地面动物 / 猫",
+          "scene_en": "ground animal (cat)",
+          "group_zh": "动物"
+        }
+      ]
+    },
+    {
+      "image": "samples/07_horse.png",
+      "prediction": "horse",
+      "probability": 0.9663221836090088,
+      "scene_zh": "地面动物 / 马",
+      "scene_en": "ground animal (horse)",
+      "group_zh": "动物",
+      "topk": [
+        {
+          "class_index": 7,
+          "class_name": "horse",
+          "probability": 0.9663221836090088,
+          "scene_zh": "地面动物 / 马",
+          "scene_en": "ground animal (horse)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 5,
+          "class_name": "dog",
+          "probability": 0.01659870147705078,
+          "scene_zh": "地面动物 / 犬",
+          "scene_en": "ground animal (dog)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 3,
+          "class_name": "cat",
+          "probability": 0.00600659754127264,
+          "scene_zh": "地面动物 / 猫",
+          "scene_en": "ground animal (cat)",
+          "group_zh": "动物"
+        },
+        {
+          "class_index": 9,
+          "class_name": "truck",
+          "probability": 0.005410683341324329,
+          "scene_zh": "地面车辆 / 货车",
+          "scene_en": "ground heavy vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 1,
+          "class_name": "automobile",
+          "probability": 0.0033839091192930937,
+          "scene_zh": "地面车辆 / 小型机动车",
+          "scene_en": "ground light vehicle",
+          "group_zh": "地面车辆"
+        }
+      ]
+    },
+    {
+      "image": "samples/08_ship.png",
+      "prediction": "ship",
+      "probability": 0.998252809047699,
+      "scene_zh": "水面目标 / 船只",
+      "scene_en": "surface vessel",
+      "group_zh": "水面",
+      "topk": [
+        {
+          "class_index": 8,
+          "class_name": "ship",
+          "probability": 0.998252809047699,
+          "scene_zh": "水面目标 / 船只",
+          "scene_en": "surface vessel",
+          "group_zh": "水面"
+        },
+        {
+          "class_index": 1,
+          "class_name": "automobile",
+          "probability": 0.0017230052035301924,
+          "scene_zh": "地面车辆 / 小型机动车",
+          "scene_en": "ground light vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 0,
+          "class_name": "airplane",
+          "probability": 2.3653845346416347e-05,
+          "scene_zh": "空中目标 / 飞行器",
+          "scene_en": "airborne aircraft",
+          "group_zh": "空中"
+        },
+        {
+          "class_index": 9,
+          "class_name": "truck",
+          "probability": 2.74835372238158e-07,
+          "scene_zh": "地面车辆 / 货车",
+          "scene_en": "ground heavy vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 3,
+          "class_name": "cat",
+          "probability": 1.7197676527302974e-07,
+          "scene_zh": "地面动物 / 猫",
+          "scene_en": "ground animal (cat)",
+          "group_zh": "动物"
+        }
+      ]
+    },
+    {
+      "image": "samples/09_truck.png",
+      "prediction": "truck",
+      "probability": 0.9998834133148193,
+      "scene_zh": "地面车辆 / 货车",
+      "scene_en": "ground heavy vehicle",
+      "group_zh": "地面车辆",
+      "topk": [
+        {
+          "class_index": 9,
+          "class_name": "truck",
+          "probability": 0.9998834133148193,
+          "scene_zh": "地面车辆 / 货车",
+          "scene_en": "ground heavy vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 1,
+          "class_name": "automobile",
+          "probability": 0.00011646400525933132,
+          "scene_zh": "地面车辆 / 小型机动车",
+          "scene_en": "ground light vehicle",
+          "group_zh": "地面车辆"
+        },
+        {
+          "class_index": 0,
+          "class_name": "airplane",
+          "probability": 5.814054659936119e-08,
+          "scene_zh": "空中目标 / 飞行器",
+          "scene_en": "airborne aircraft",
+          "group_zh": "空中"
+        },
+        {
+          "class_index": 8,
+          "class_name": "ship",
+          "probability": 2.6975433442544272e-08,
+          "scene_zh": "水面目标 / 船只",
+          "scene_en": "surface vessel",
+          "group_zh": "水面"
+        },
+        {
+          "class_index": 7,
+          "class_name": "horse",
+          "probability": 1.1563234814104817e-09,
+          "scene_zh": "地面动物 / 马",
+          "scene_en": "ground animal (horse)",
+          "group_zh": "动物"
+        }
+      ]
+    }
+  ]
+}

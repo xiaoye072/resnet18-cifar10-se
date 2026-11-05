@@ -1,0 +1,62 @@
+[
+  {
+    "file": "00_airplane.png",
+    "cifar10_test_index": 3,
+    "label_index": 0,
+    "label_name": "airplane"
+  },
+  {
+    "file": "01_automobile.png",
+    "cifar10_test_index": 6,
+    "label_index": 1,
+    "label_name": "automobile"
+  },
+  {
+    "file": "02_bird.png",
+    "cifar10_test_index": 25,
+    "label_index": 2,
+    "label_name": "bird"
+  },
+  {
+    "file": "03_cat.png",
+    "cifar10_test_index": 0,
+    "label_index": 3,
+    "label_name": "cat"
+  },
+  {
+    "file": "04_deer.png",
+    "cifar10_test_index": 22,
+    "label_index": 4,
+    "label_name": "deer"
+  },
+  {
+    "file": "05_dog.png",
+    "cifar10_test_index": 12,
+    "label_index": 5,
+    "label_name": "dog"
+  },
+  {
+    "file": "06_frog.png",
+    "cifar10_test_index": 4,
+    "label_index": 6,
+    "label_name": "frog"
+  },
+  {
+    "file": "07_horse.png",
+    "cifar10_test_index": 13,
+    "label_index": 7,
+    "label_name": "horse"
+  },
+  {
+    "file": "08_ship.png",
+    "cifar10_test_index": 1,
+    "label_index": 8,
+    "label_name": "ship"
+  },
+  {
+    "file": "09_truck.png",
+    "cifar10_test_index": 11,
+    "label_index": 9,
+    "label_name": "truck"
+  }
+]

@@ -1,0 +1,12 @@
+# CPU wheels matching the submitted training run.
+# On a CUDA machine, install the corresponding CUDA builds of torch and
+# torchvision instead; train.py uses CUDA automatically when it is available.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0+cpu
+torchvision==0.29.2+cpu
+numpy==2.5.4
+matplotlib==3.11.2
+pillow==13.0.0
+tqdm==4.70.1
+markdown==3.11.2
+fpdf2==2.9.0

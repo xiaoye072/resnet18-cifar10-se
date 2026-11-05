@@ -1,0 +1,27 @@
+{
+  "model": "resnet18_se",
+  "seed": 42,
+  "epochs_requested": 12,
+  "epochs_completed": 12,
+  "best_epoch": 12,
+  "best_test_acc": 0.8287,
+  "best_test_acc_percent": 82.87,
+  "final_test_acc": 0.8287,
+  "final_test_loss": 0.5246495917320252,
+  "final_train_acc": 0.88072,
+  "final_train_loss": 0.34744203963279724,
+  "total_train_seconds_this_process": 2299.2245877600008,
+  "device": "cpu",
+  "torch": "2.15.0+cpu",
+  "complexity": {
+    "params": 11261002,
+    "macs": 555509760,
+    "flops": 1111019520,
+    "image_size": 32,
+    "macs_note": "Conv2d and Linear multiply-accumulates for one image; BN and activations excluded.",
+    "flops_note": "FLOPs = 2 * MACs."
+  },
+  "checkpoint": "checkpoints/resnet18_se_best.pth",
+  "metrics_csv": "runs/resnet18_se/metrics.csv",
+  "history_json": "runs/resnet18_se/history.json"
+}

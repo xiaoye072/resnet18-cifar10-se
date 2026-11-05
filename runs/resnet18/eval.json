@@ -1,0 +1,217 @@
+{
+  "model": "resnet18",
+  "checkpoint": "checkpoints/resnet18_best.pth",
+  "checkpoint_epoch": 11,
+  "checkpoint_logged_test_acc": 0.8452,
+  "test_loss": 0.47776041631698607,
+  "test_acc": 0.8452,
+  "test_acc_percent": 84.52,
+  "examples": 10000,
+  "per_class": [
+    {
+      "class_index": 0,
+      "class_name": "airplane",
+      "support": 1000,
+      "correct": 912,
+      "acc": 0.912
+    },
+    {
+      "class_index": 1,
+      "class_name": "automobile",
+      "support": 1000,
+      "correct": 970,
+      "acc": 0.97
+    },
+    {
+      "class_index": 2,
+      "class_name": "bird",
+      "support": 1000,
+      "correct": 669,
+      "acc": 0.669
+    },
+    {
+      "class_index": 3,
+      "class_name": "cat",
+      "support": 1000,
+      "correct": 640,
+      "acc": 0.64
+    },
+    {
+      "class_index": 4,
+      "class_name": "deer",
+      "support": 1000,
+      "correct": 850,
+      "acc": 0.85
+    },
+    {
+      "class_index": 5,
+      "class_name": "dog",
+      "support": 1000,
+      "correct": 822,
+      "acc": 0.822
+    },
+    {
+      "class_index": 6,
+      "class_name": "frog",
+      "support": 1000,
+      "correct": 954,
+      "acc": 0.954
+    },
+    {
+      "class_index": 7,
+      "class_name": "horse",
+      "support": 1000,
+      "correct": 856,
+      "acc": 0.856
+    },
+    {
+      "class_index": 8,
+      "class_name": "ship",
+      "support": 1000,
+      "correct": 927,
+      "acc": 0.927
+    },
+    {
+      "class_index": 9,
+      "class_name": "truck",
+      "support": 1000,
+      "correct": 852,
+      "acc": 0.852
+    }
+  ],
+  "confusion_matrix": [
+    [
+      912,
+      8,
+      6,
+      7,
+      10,
+      2,
+      4,
+      2,
+      44,
+      5
+    ],
+    [
+      7,
+      970,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      8,
+      13
+    ],
+    [
+      81,
+      1,
+      669,
+      24,
+      50,
+      40,
+      107,
+      9,
+      9,
+      10
+    ],
+    [
+      31,
+      9,
+      15,
+      640,
+      41,
+      128,
+      91,
+      10,
+      11,
+      24
+    ],
+    [
+      16,
+      6,
+      9,
+      11,
+      850,
+      19,
+      54,
+      24,
+      7,
+      4
+    ],
+    [
+      11,
+      5,
+      7,
+      61,
+      30,
+      822,
+      41,
+      15,
+      3,
+      5
+    ],
+    [
+      6,
+      0,
+      6,
+      13,
+      5,
+      12,
+      954,
+      0,
+      3,
+      1
+    ],
+    [
+      17,
+      7,
+      4,
+      16,
+      33,
+      33,
+      16,
+      856,
+      7,
+      11
+    ],
+    [
+      48,
+      11,
+      0,
+      4,
+      0,
+      0,
+      6,
+      0,
+      927,
+      4
+    ],
+    [
+      22,
+      96,
+      0,
+      1,
+      0,
+      0,
+      2,
+      1,
+      26,
+      852
+    ]
+  ],
+  "device": "cpu",
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ]
+}
